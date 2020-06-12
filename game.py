@@ -54,8 +54,6 @@ game(num, character)
 with open("save.txt", "r", encoding='utf-8') as f: 
     data = f.read() 
     character = json.loads(data) 
-    
+
 print(type(character))
 print(character)
-
-
